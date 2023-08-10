@@ -1,41 +1,46 @@
+/* Styles for the main container */
 .container {
-  width: 70%;
-  margin: auto;
-  text-align: center;
+  width: 70%; /* Set the width of the container to 70% of its parent */
+  margin: auto; /* Center the container horizontally using auto margins */
+  text-align: center; /* Center the text content of the container */
 }
 
+/* Styles for dice elements */
 .dice {
-  text-align: center;
-  display: inline-block;
-
+  text-align: center; /* Center the text content of dice elements */
+  display: inline-block; /* Display dice elements in a row */
 }
 
+/* Background color for the entire page */
 body {
   background-color: #393E46;
 }
 
+/* Styles for the main heading */
 h1 {
-  margin: 30px;
-  font-family: 'Lobster', cursive;
-  text-shadow: 5px 0 #232931;
-  font-size: 8rem;
-  color: #4ECCA3;
+  margin: 30px; /* Add margin around the heading */
+  font-family: 'Lobster', cursive; /* Set font family for the heading */
+  text-shadow: 5px 0 #232931; /* Add a horizontal text shadow */
+  font-size: 8rem; /* Set the font size of the heading */
+  color: #4ECCA3; /* Set text color for the heading */
 }
 
+/* Styles for paragraph elements */
 p {
-  font-size: 2rem;
-  color: #4ECCA3;
-  font-family: 'Indie Flower', cursive;
+  font-size: 2rem; /* Set font size for paragraph elements */
+  color: #4ECCA3; /* Set text color for paragraph elements */
+  font-family: 'Indie Flower', cursive; /* Set font family for paragraph elements */
 }
 
+/* Styles for images */
 img {
-  width: 80%;
+  width: 80%; /* Set the width of images to 80% of their container */
 }
 
+/* Styles for the footer */
 footer {
-  margin-top: 5%;
-  color: #EEEEEE;
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-
+  margin-top: 5%; /* Add margin to the top of the footer */
+  color: #EEEEEE; /* Set text color for the footer */
+  text-align: center; /* Center the text content of the footer */
+  font-family: 'Indie Flower', cursive; /* Set font family for the footer */
 }
