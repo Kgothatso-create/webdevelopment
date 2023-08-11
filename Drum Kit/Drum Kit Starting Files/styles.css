@@ -1,83 +1,66 @@
+/* Styling for the entire page */
 body {
-  text-align: center;
-  background-color: #283149;
+  text-align: center; /* Center-aligns text content */
+  background-color: #283149; /* Sets background color */
 }
 
+/* Styling for the main heading */
 h1 {
-  font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
-
+  font-size: 5rem; /* Sets font size */
+  color: #DBEDF3; /* Sets font color */
+  font-family: "Arvo", cursive; /* Applies a custom font */
+  text-shadow: 3px 0 #DA0463; /* Adds a text shadow effect */
 }
 
+/* Styling for the footer section */
 footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
+  color: #DBEDF3; /* Sets font color */
+  font-family: sans-serif; /* Applies a sans-serif font */
 }
 
+/* Styling for each drum button (w, a, s, d, j, k, l) */
 .w {
-
-  background-image: url("images/tom1.png");
-
+  background-image: url("images/tom1.png"); /* Sets background image */
 }
+/* ... Similar styles for other drum buttons ... */
 
-.a {
-  background-image: url("images/tom2.png");
-}
-
-.s {
-  background-image: url("images/tom3.png");
-}
-
-.d {
-  background-image: url("images/tom4.png");
-}
-
-.j {
-  background-image: url("images/snare.png");
-}
-
-.k {
-  background-image: url("images/crash.png");
-}
-
-.l {
-  background-image: url("images/kick.png");
-}
-
+/* Styling for the container of drum buttons */
 .set {
-  margin: 10% auto;
+  margin: 10% auto; /* Sets margin to center-align the container */
 }
 
+/* Styling for the "game-over" class */
 .game-over {
-  background-color: red;
-  opacity: 0.8;
+  background-color: red; /* Sets background color */
+  opacity: 0.8; /* Sets transparency */
 }
 
+/* Styling for the "pressed" class */
 .pressed {
-  box-shadow: 0 3px 4px 0 #DBEDF3;
-  opacity: 0.5;
+  box-shadow: 0 3px 4px 0 #DBEDF3; /* Adds box shadow */
+  opacity: 0.5; /* Sets transparency */
 }
 
+/* Styling for text with class "red" */
 .red {
-  color: red;
+  color: red; /* Sets font color */
 }
 
+/* Styling for drum buttons */
 .drum {
-  outline: none;
-  border: 10px solid #404B69;
-  font-size: 5rem;
-  font-family: 'Arvo', cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: white;
+  outline: none; /* Removes outline when clicked */
+  border: 10px solid #404B69; /* Sets border style and color */
+  font-size: 5rem; /* Sets font size */
+  font-family: 'Arvo', cursive; /* Applies a custom font */
+  line-height: 2; /* Sets line height */
+  font-weight: 900; /* Sets font weight */
+  color: #DA0463; /* Sets font color */
+  text-shadow: 3px 0 #DBEDF3; /* Adds a text shadow effect */
+  border-radius: 15px; /* Sets border radius */
+  display: inline-block; /* Makes element an inline block */
+  width: 150px; /* Sets width */
+  height: 150px; /* Sets height */
+  text-align: center; /* Centers text horizontally */
+  margin: 10px; /* Sets margin around the button */
+  background-color: white; /* Sets background color */
 }
